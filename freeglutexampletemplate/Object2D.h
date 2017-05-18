@@ -4,7 +4,11 @@
 #include "Image_Loading\nvImage.h"
 #include "GL\freeglut.h"
 #include "globals.h"
-
+/**
+ * Base class of all possible objects in the gamespace
+ * contains all fundamental physics function as well a 
+ * universal gravity variable
+ */
 
 class Object2D
 {
