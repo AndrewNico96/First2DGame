@@ -3,7 +3,12 @@
 #include "Object2D.h"
 #include "projectile.h"
 #include "Platform.h"
-
+/**
+ * Handles collision detection by drawing a theoretical
+ * Axis-Aligned Bounding Box around objects
+ * Also handles projectile collision using bounding-cirle 
+ * method.
+ */
 
 class BoundBox
 {
