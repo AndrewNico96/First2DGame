@@ -1,4 +1,7 @@
 #pragma once
+/**
+ *Models a theoretical 2-dimensional point in gamespace
+ */
 class vect2d
 {
 private:
