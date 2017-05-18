@@ -1,5 +1,10 @@
 #pragma once
 #include "Object2D.h"
+/**
+ * inherits functions of Object2D
+ * Overrides draw funtion to allow for contant
+ * tiling of background
+ */
 class BackGround : public Object2D
 {
 public:
